@@ -1,0 +1,2 @@
+1-withSum function -> 
+  Model::withSum('relation','column')->get();
