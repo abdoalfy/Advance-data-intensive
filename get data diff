@@ -84,3 +84,8 @@ Parameters
 $values → array of rows
 $uniqueBy → column(s) to check duplicates
 $updateColumns → columns to update if record exists
+
+
+------------------------------------------------------------------------------------
+
+what is different between where and whereKey 
