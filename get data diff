@@ -61,3 +61,26 @@ N+1 Queries
 Loop
 عرض بيانات
 حسابات بسيطة
+
+
+
+---------------------------------------------------------------------------------
+
+What is upsert in Laravel?
+
+upsert = update OR insert
+It allows you to:
+Insert new records if they don’t exist
+
+Update existing records if they already exist
+👉 all in one database query  --------> اهم ميزه فيها
+
+Model::upsert(
+    $values,
+    $uniqueBy,
+    $updateColumns
+);
+Parameters
+$values → array of rows
+$uniqueBy → column(s) to check duplicates
+$updateColumns → columns to update if record exists
