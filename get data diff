@@ -88,4 +88,10 @@ $updateColumns → columns to update if record exists
 
 ------------------------------------------------------------------------------------
 
-what is different between where and whereKey 
+what is different between where and whereKey : 
+
+
+1️⃣ where()
+General-purpose condition builder
+Works with any column
+You choose the column, operator, and value
