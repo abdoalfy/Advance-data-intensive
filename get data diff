@@ -95,3 +95,12 @@ what is different between where and whereKey :
 General-purpose condition builder
 Works with any column
 You choose the column, operator, and value
+for ex : User::where('id', 5)->first();
+User::whereIn('id', [1, 2, 3])->get();
+
+
+2️⃣ whereKey()
+Shortcut for querying the primary key
+Automatically uses the model’s primary key (id by default)
+for ex : User::whereKey(5)->first();
+User::whereKey([1, 2, 3])->get();
